@@ -61,16 +61,30 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid col-1 place-items-center h-dvh">
-        <p className="text-4xl font-semibold">
-            Education
-        </p>
-        <p className="text-4xl font-semibold">
-            Education
-        </p>
-        <p className="text-4xl font-semibold">
-            Education
-        </p>
+      <div className="grid grid-cols-1 place-items-center h-fit">
+        <div className="m-8">
+          <p className="text-6xl font-semibold">
+              Education
+          </p>
+        </div>
+        <div className="grid grid-cols-3 gap-10 w-9/10 h-80">
+          <div className="rounded-lg bg-gradient-to-r from-red-900 to-yellow-400">
+            <p className="text-3xl font-semibold ">
+                Mills High School
+            </p>
+          </div>
+          <div className="rounded-lg bg-gradient-to-r from-red-900 via-yellow-400 to-white">
+            <p className="text-3xl font-semibold ">
+                Skyline College
+            </p>
+          </div>
+          <div className="rounded-lg bg-gradient-to-r from-blue-900 to-yellow-400">
+            <p className="text-3xl font-semibold ">
+                University of California, Davis
+            </p>
+          </div>
+        </div>
+        
       </div>
 
 

@@ -28,7 +28,7 @@ export const AboutMe: React.FC= () => {
                     <div className="m-8 grid place-items-center">
                         <Image
                             className="rounded shadow-lg bg-transparent mr-4"
-                            src="site\assets\me.png"
+                            src="\site\assets\me.png"
                             alt="me"
                             width={600}
                             height={600}

@@ -29,7 +29,7 @@ export const Projects: React.FC= () => {
                     <div className="m-8 grid place-items-center">
                         <Image
                             className="rounded shadow-lg bg-transparent mr-4"
-                            src="\assets\reactnext.png"
+                            src="\site\assets\reactnext.png"
                             alt="reactNext"
                             width={600}
                             height={600}
@@ -40,7 +40,7 @@ export const Projects: React.FC= () => {
                     <div className="m-8 grid place-items-center order-5 md:order-none">
                         <Image
                             className="rounded shadow-lg bg-transparent mr-4"
-                            src="\assets\pythonapi.png"
+                            src="\site\assets\pythonapi.png"
                             alt="pythonapi"
                             width={400}
                             height={400}

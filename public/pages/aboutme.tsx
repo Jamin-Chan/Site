@@ -10,7 +10,7 @@ export const AboutMe: React.FC= () => {
         <div className="md:h-dvh h-fit">
             <div className="flex flex-col justify-center items-center">
                 <div className="m-8">
-                    <p className="text-8xl font-semibold text-center">
+                    <p className="text-7xl md:text-8xl font-semibold text-center">
                     About Me
                     </p>
                 </div>
@@ -21,7 +21,7 @@ export const AboutMe: React.FC= () => {
                             My name is Jamin Chan. I am a Computer Scientist, Developer, and Student.
                             I attend UC Davis pursuing a degree in Computer Science. To see what I have 
                             achieved so far - &nbsp;
-                            <a href="\assets\Resume - Jamin Chan.pdf" target="_blank" className="no-underline hover:underline text-blue-400">View Resume</a>
+                            <a href="\site\assets\Resume - Jamin Chan.pdf" target="_blank" className="no-underline hover:underline text-blue-400">View Resume</a>
                         </p>
                         
                     </div>

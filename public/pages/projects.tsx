@@ -9,7 +9,7 @@ export const Projects: React.FC= () => {
     return (
         <div className="md:h-dvh h-fit">
             <div className="flex flex-col place-items-center m-8">
-                <p className="text-8xl font-semibold">
+                <p className="text-7xl md:text-8xl font-semibold">
                 Projects
                 </p>
             </div>
@@ -35,6 +35,7 @@ export const Projects: React.FC= () => {
                             height={600}
                             priority />
                     </div>
+                
                     <div className="md:mt-24 md:mb-24 md:border-t border-gray-400 ml-20"></div>
                     <div className="mt-24 mb-24 border-t border-gray-400 mr-20 ml-20 md:ml-0"></div>
                     <div className="m-8 grid place-items-center order-5 md:order-none">

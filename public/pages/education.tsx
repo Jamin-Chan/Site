@@ -7,7 +7,7 @@ export const Education: React.FC= () => {
         <div className="md:h-dvh h-fit">
             <div className="flex flex-col place-items-center">
                 <div className="m-8">
-                <p className="text-8xl font-semibold text-center">
+                <p className="text-7xl md:text-8xl font-semibold text-center">
                 Education
                 </p>
             </div>

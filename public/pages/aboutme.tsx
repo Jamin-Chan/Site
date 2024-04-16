@@ -19,9 +19,10 @@ export const AboutMe: React.FC= () => {
                         <p className="text-4xl text-center">
                             Hi! <br/>
                             My name is Jamin Chan. I am a Computer Scientist, Developer, and Student.
-                            I attend UC Davis pursuing a degree in Computer Science. To see what I have 
-                            achieved so far - &nbsp;
-                            <a href="\site\assets\Resume - Jamin Chan.pdf" target="_blank" className="no-underline hover:underline text-blue-400">View Resume</a>
+                            I attend UC Davis pursuing a degree in Computer Science. To review my accomplishments to date, 
+                            please feel free to access my &nbsp;
+                            <a href="assets\Resume - Jamin Chan.pdf" target="_blank" className="no-underline hover:underline text-blue-400">resume</a>
+                            .
                         </p>
                         
                     </div>

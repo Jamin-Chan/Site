@@ -2,11 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
+import FadeAnimation from "../components/FadeAnimation";
 
 import me from "/assets/me.jpg";
 
 export const Projects: React.FC= () => {
     return (
+        <FadeAnimation>
         <div className="md:h-dvh h-fit">
             <div className="flex flex-col place-items-center m-8">
                 <p className="text-7xl md:text-8xl font-semibold">
@@ -57,6 +59,7 @@ export const Projects: React.FC= () => {
                     </div>
                 </div>
         </div>
+        </FadeAnimation>
     );
 };
 

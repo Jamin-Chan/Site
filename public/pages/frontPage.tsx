@@ -3,11 +3,17 @@
 import React from "react";
 import Image from "next/image";
 import Link from 'next/link';
+import NavigationMenu from "../components/Navigation";
 
 
 export const FrontPage: React.FC= () => {
     return (
         <div>
+            <div className="absolute border-2 border-gray-50 rounded">
+                <NavigationMenu></NavigationMenu>
+            </div>
+            
+
             <div className="m-6 absolute end-0">
                 <Link href="https://www.linkedin.com/in/jamin-chan-856b88222" passHref={true}>
                     <button className="transition hover:-translate-y-2">

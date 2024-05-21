@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion"
 
 import me from "/assets/me.png";
 import FadeAnimation from "../components/FadeAnimation";

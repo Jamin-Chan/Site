@@ -9,7 +9,7 @@ const NavigationMenu: React.FC = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-50">
       {/* Menu button */}
         <div className="flex flex-row">
             <button onClick={toggleMenu} className="m-6 flex flex-col justify-around w-8 h-8 bg-black rounded">
@@ -17,7 +17,7 @@ const NavigationMenu: React.FC = () => {
                 <span className="bar block w-full h-1 bg-white transition-opacity rounded"></span>
                 <span className="bar block w-full h-1 bg-white transition-transform rounded"></span>
             </button>
-            <div className="flex justify-stretch items-center">
+            <div className="m-6 hidden justify-stretch items-center md:block ">
                 <p className="text-center inline-block align-middle">
                     Navigation Menu
                 </p>
@@ -26,8 +26,8 @@ const NavigationMenu: React.FC = () => {
 
       {/* Menu items */}
       <motion.ul
-        initial={{ height: 0, opacity: 0 }}
-        animate={{ height: isOpen ? '100dvh' : 0, opacity: isOpen ? 1 : 0 }}
+        initial={{ height: 0, opacity: 0, width: 0 }}
+        animate={{ height: isOpen ? '100dvh' : 0, opacity: isOpen ? 1 : 0, width: isOpen ? '100%' : 0 }}
         transition={{ duration: 0.3 }}
         className="w-64 bg-white text-black text-center opacity-0"
       >

@@ -19,7 +19,7 @@ export const Education: React.FC= () => {
                             University of California, Davis
                         </p>
                         <p className="text-center text-2xl">
-                            2023-2025 (expected)
+                            2023-2025
                         </p>
                         <ul className="flex justify-center flex-wrap text-xl mt-4 *:p-1 *:m-1 *:bg-white *:rounded-md *:border-2 *:border-black *:border-solid hover:*:border-amber-500 hover:*:bg-slate-200">
                         <li>Computer Architecture</li>
